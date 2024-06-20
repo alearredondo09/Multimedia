@@ -1,68 +1,74 @@
-# Programa de Gestión de VideoTeca
-**Volver a Revisar**:
-***- Implemento las clases en c++ siguiendo el diseño del diagrama de clases en UML.***
-***- Impemento composición (o agregación) sieguiendo mi diagrama de clases***
-***- Implemento clases apegadas a requerimientos a partir de un modelo.***
+# Video Library Management Program
+**To Review**:
+***- Implement classes in C++ following the UML class diagram design.***
+***- Implement composition (or aggregation) according to my class diagram.***
+***- Implement classes adhering to requirements based on a model.***
 
-## Descripción del Problema
+## Problem Description
 
-El problema a abordar es la gestión efectiva de un negocio de alquiler de películas. Esto implica llevar un registro preciso de las películas y canciones disponibles en el catálogo y la información de los usuarios del sistema.
+The problem to address is the effective management of a movie rental business. This involves maintaining an accurate record of movies and songs available in the catalog and the information of the system's users.
 
-## Funcionalidades
+## Features
 
-- **Catálogo de Películas:** Permite visualizar y encontrar en el catálogo una película.
-- **Catálogo de Usuarios:** Permite visualizar los usuarios en el sistema y buscar algun usuario por medio de su nombre.
-- **Catálogo de Canciones:** Permite visualizar las canciones en el catálogo con toda su información y buscar alguna cancion por medio de su titulo
-- **Agregar Películas:** Permite a los usuarios agregar nuevas películas al catálogo, ingresando detalles como título, director y ID.
-- **Agregar Clientes:** Permite agregar nuevos clientes al sistema, incluyendo su información.
-- **Agregar Canciones:** Permite agregar canciones.
+- **Movie Catalog:** Allows viewing and finding a movie in the catalog.
+- **User Catalog:** Allows viewing the users in the system and searching for a user by their name.
+- **Song Catalog:** Allows viewing the songs in the catalog with all their information and searching for a song by its title.
+- **Add Movies:** Allows users to add new movies to the catalog by entering details such as title, director, and ID.
+- **Add Clients:** Allows adding new clients to the system, including their information.
+- **Add Songs:** Allows adding songs.
 
-## Instrucciones de Uso
-1.  **Agregar un Usuario:**
-    -   Selecciona la opción 1.
-    -   Ingresa el nombre, edad y nombre de usuario del cliente.
-    -   Si deseas crear un ticket para este usuario, ingresa 1; de lo contrario, ingresa 0.
-    -   Si seleccionas 1, ingresa los días de renta para el ticket.
+## Instructions for Use
+
+1. **Add a User:**
+    - Select option 1.
+    - Enter the client's name, age, and username.
+    - If you want to create a ticket for this user, enter 1; otherwise, enter 0.
+    - If you select 1, enter the rental days for the ticket.
     
-2.  **Agregar una Canción:**
-    -   Selecciona la opción 2.
-    -   Ingresa el título, género y cantante de la canción.
-    -   Puedes agregar varias canciones en una sesión.
+2. **Add a Song:**
+    - Select option 2.
+    - Enter the title, genre, and singer of the song.
+    - You can add multiple songs in one session.
     
-3.  **Agregar una Película:**
-    -   Selecciona la opción 3.
-    -   Ingresa el título, género y director de la película.
-    -   Puedes agregar varias películas en una sesión.
+3. **Add a Movie:**
+    - Select option 3.
+    - Enter the title, genre, and director of the movie.
+    - You can add multiple movies in one session.
     
-4.  **Imprimir Lista de Canciones:**
-    -   Selecciona la opción 4.
-    -   Verás la lista de canciones con sus títulos y cantantes.
+4. **Print Song List:**
+    - Select option 4.
+    - You will see the list of songs with their titles and singers.
   
-5.  **Imprimir Lista de Usuarios:**
-    -   Selecciona la opción 5.
-    -   Verás la lista de usuarios con sus nombres, nombres de usuario y edades.
+5. **Print User List:**
+    - Select option 5.
+    - You will see the list of users with their names, usernames, and ages.
     
-6.  **Imprimir Lista de Películas:**
-    -   Selecciona la opción 6.
-    -   Verás la lista de películas con sus títulos y directores.
-7.  **Mostrar el catalogo de canciones, usuarios y peliculas:** 
-    - Selecciona la opcion 7.
-    - Verás el catalogo de canciones, usuarios y peliculas que están en el sistema.
-8.  **Buscar una película:**
-    - Selecciona la opcion 8.
-    - Ingresarás el nombre de la pelicula a buscar.
-    - Verás si se encuentra en el sistema. 
-9.  **Buscar una canción:**
-     - Selecciona la opción 9.
-     - Ingresarás el nombre de la canción a buscar.
-     - Verás si se encuentra en el sistema.
-10.  **Buscar un usuario:**
-     - Selecciona la opcion 10.
-     - Ingresarás el nombre del usuario a buscar.
-     - Verás si se encuentra en el sistema.
-11.  **Salir del Programa:** 
-    -  Selecciona la opción 11.
-    -   El programa se cerrará.
+6. **Print Movie List:**
+    - Select option 6.
+    - You will see the list of movies with their titles and directors.
+    
+7. **Show Catalog of Songs, Users, and Movies:** 
+    - Select option 7.
+    - You will see the catalog of songs, users, and movies in the system.
+    
+8. **Search for a Movie:**
+    - Select option 8.
+    - Enter the name of the movie to search for.
+    - You will see if it is in the system.
+    
+9. **Search for a Song:**
+    - Select option 9.
+    - Enter the name of the song to search for.
+    - You will see if it is in the system.
+    
+10. **Search for a User:**
+    - Select option 10.
+    - Enter the name of the user to search for.
+    - You will see if they are in the system.
+    
+11. **Exit the Program:** 
+    - Select option 11.
+    - The program will close.
 
-Nota: El programa no acepta entradas con espacio, por lo que favor de ingresar solamente una palabra o separarla con guion bajo. 
-Para que el programa funcione correctamente, favor de descargar los archivos y ponerlos en una carpeta todos junto con el main. 
+Note: The program does not accept inputs with spaces, so please enter only one word or separate them with an underscore.
+To ensure the program works correctly, please download the files and place them all in a folder along with the main file.
